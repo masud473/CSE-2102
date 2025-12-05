@@ -1,8 +1,5 @@
 def tautology(statement,variables):
     n=len(variables)
-    for i in variables:
-        print(i,end=" ")
-    print(statement)
     for i in range(1<<n):
         value_list=[]
         for j in range(n):
