@@ -14,7 +14,7 @@ def table(str,var):
 
         print('T' if eval(str,None,d) else 'F')
         
-table("p or q",'pq')
+table("p <- q",'pq')
 table("not(not p and not q)",'pq')
 
 def match(str1,str2,var):
