@@ -13,10 +13,3 @@ def not_forall(domain,predicate):
 def not_forany(domain,predicate):
     return all(not predicate(x) for x in domain)
 
-print(not_forall(domain,p1))
-print(not_forany(domain,p2))
-
-
-print()
-for i in range(1000000):
-    print(i)
